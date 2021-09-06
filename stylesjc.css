@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(SJCNOITE.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font: size 20px;
+
+}
+
+ul{
+    padding:0;
+}
+
+li{
+    list-style:none;
+    background-color: rgba(175, 171, 248, 0.7);
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    width:95%;
+    border-radius: 0 25px 25px 0;
+    
+}
+    
+    
+.header{
+    position: fixed;
+    top:0;
+    background-color: rgb(rgb(236, 174, 132), green, blue);
+    padding:15px;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    width: 100%;
+
+}
+
+
+.titlehead{
+    font-family: "lobster", Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 45pt;
+    color:azure;
+    text-shadow: rgb(15, 14, 14) 5pt 5pt 5pt;
+}
+
+.content{
+    position: initial;
+    width: 100%;
+    margin-top: 125px;
+    margin-bottom: 80px;
+    text-align: center; 
+}
+
+.sjccontent{
+    margin-bottom: 20px;
+    background-color: rgba(133, 163, 219, 0.418);
+    padding: 15px 10px;
+    text-align: justify;
+    font-size: 20pt;
+}
+
+.sjccontent p{
+    padding: 5px;
+}
+
+.curiosidades{
+    text-align: center;
+    font-size: 15pt;
+    font-family:"Poppins", Arial, verdana, sans-serif;
+    color: white;
+    text-shadow: black 5pt 5pt 5pt;
+    padding-bottom: 15px;
+}
+
+.titlelist{
+    font-style: "Abril";
+    width: 100%;
+    height: 50%;
+    font-size: 40pt;
+    color:azure;
+    text-shadow: rgb(15, 14, 14) 5pt 5pt 5pt;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.video{
+    margin-bottom: 10px;
+}
+
+.footer{
+    position:fixed;         
+    bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+    background-color:rgba(133, 163, 219, 0.418);
+    text-shadow: black 50px 50px;
+}
+
+.logoinsta{
+    width: 60px;
+    height: 60px;
+    color:black;
+    margin-right: 50px;
+}
+
+.logoytb{
+    width: 60px;
+    height: 60px;
+    color:black;
+    margin-left: 50px;
+}
+
